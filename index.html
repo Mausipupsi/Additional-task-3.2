@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic table</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="calculate">
+        <p>Row: </p>
+        <input type="number" id="rows" min="1" max="9" placeholder="Number of rows">
+        <p>Column: </p>
+        <input type="number" id="columns" min="1" max="9" placeholder="Number of columns">
+    </div>
+    <button id="createTable">Run</button>
+    <div id='tableContainer'></div>
+    <div id='errorContainer' style='color: red;'></div>
+    <script src='script.js'></script>
+</body>
+</html>

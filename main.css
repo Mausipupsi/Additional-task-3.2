@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+tr, td {
+  padding: 7px;
+}
+
+.calculate {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#rows {
+  margin-right: 10px;
+}
+
+#rows, #columns {
+  width: 120px;
+}
+
+#createTable {
+  margin-bottom: 10px;
+  padding: 2px;
+}
+
+#errorContainer {
+  color: red;
+  margin-bottom: 10px;
+}
